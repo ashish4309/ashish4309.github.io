@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website Project</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script src="https://kit.fontawesome.com/094b8ee4be.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./Images/Logo.png" alt="Logo" class="logo" />
+
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Portfolio">Porfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-text">
+          <p>Masters Student</p>
+          <h1>Hi, I am <span>Ashish Jha</span><br />pursing masters at ITU</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------about--------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./Images/user.jpg" alt="my_image" />
+          </div>
+
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              I am currently pursing my Master of Science degree at
+              International Technological University. I have spent my last 4
+              years in the IT Industry working as a business analyst which
+              fuelled my interest in pursuing a career as a software engineer.
+              <br /><br />As a Business Analyst i was specializing in agile
+              project management methodologies with experience in handling
+              projects from multiple domains such as automation, ERP and IIoT.
+              Experienced in documenting business processes and translating the
+              requirements in varied documentations required for successful
+              project development and delivery.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>HTML/CSS/Javascript</span><br />Desging Websites using
+                  the HTML/CSS and Javascript
+                </li>
+                <li>
+                  <span>Nodejs</span><br />Desging web applications using API's
+                  in Node
+                </li>
+                <li>
+                  <span>Python</span><br />Advance excel automation and data
+                  science using Pandas in Python
+                </li>
+                <li>
+                  <span>Azure DevOps</span><br />Managing Dev-Ops boards for
+                  organizations
+                </li>
+                <li>
+                  <span>Agile Methedologies Documentation</span><br />
+                  Maintaing project documentation needed in overall SDLC
+                </li>
+                <li>
+                  <span>Microsoft Office applications</span><br />
+                  Moderate user of Microsoft Excel, Powerpoint, word for
+                  maintaing documentations and presentations
+                </li>
+                <li>
+                  <span>Wireframing and Prototyping</span><br />
+                  Using figma to create quick Wireframes and prototypes for
+                  better ideation
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>July 2020 - April 2022</span><br />Business Analyst at
+                  Hitech Digital LLP
+                </li>
+                <li>
+                  <span>October 2018 - July 2020</span><br />Jr. Operations
+                  Executive at Hitech iSolutions LLP
+                </li>
+                <li><span>Internship</span><br />GTU Innovation Council</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>2024</span><br />Master of Science in Computer Science
+                  from INTERNATIONAL TECHNOLOGICAL UNIVERSITY
+                </li>
+
+                <li>
+                  <span>2020</span><br />Bachelor of Engineering in Information
+                  Technology from KALOL INSTITUTE OF TECHNOLOGY AND RESEARCH
+                  CENTER, GUJARAT TECHNOLOGICAL UNIVERSITY
+                </li>
+                <li>
+                  <span>2013</span><br />Heigher Secondary Education in Science
+                  stream from C.U. SHAH HIGHER SECONDARY, GUJARAT STATE
+                  EDUCATION BOARD
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------Portfolio--------------- -->
+
+    <div id="Portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+          <div>
+            <h2>ERP (Manufacturing Industry)</h2>
+            <p>
+              <ul>
+                <li>Overall Project Management for ERP product for multiple international manufacturing companies</li>
+                <li>Held multiple requirements gathering sessions with the client</li>
+                <li>Prepared multiple project documentation such as BRD, FRD based on the requirement gathering sessions and in collaboration
+                  with the SME</li>
+                <li>Participated in the creation of the overall project plan</li>
+                <li>Prepared wireframes mock-ups</li>
+                <li>Manage the user stories for the features in Azure DevOps in line with the project plan</li>
+                <li>Played a key role in the overall user-level functional testing of the finished product</li>
+                <li>Providing the first level support to the customer post-deployment in the hand holding period and providing general training</li>
+              </ul>
+            </p>
+          </div>
+
+          <div>
+            <h2>IoT (Manufacturing Industry)</h2>
+            <p>
+              <ul>
+                <li>Provided support to the product manager in the overall implementation of the IoT solutions for both domestic and international
+                  clients
+                  </li>
+                <li>Visited multiple client sites for requirement gathering</li>
+                <li>Prepared multiple project documents such as BRDs FRDs and user stories based on the requirement gathering</li>
+                <li>Established an efficient chain of communication between all the stakeholder</li>
+                <li>Manage the user stories on Azure DevOps in line with the project plan</li>
+              </ul>
+            </p>
+          </div>
+
+          <div>
+            <h2>Automation - CPQ (Configurator, Pricing and Quotation)</h2>
+            <p>
+              <ul>
+                <li>Provided support to the product manager in the overall analysis of requirement along with estimation of the allocated work and
+                  creation of project plan
+                  </li>
+                <li>Assigned Scrum master of multiple projects</li>
+                <li>Prepared wireframes for multiple products</li>
+                <li>Managed project DevOps Boards</li>
+              </ul>
+            </p>
+          </div>
+
+
+          <div>
+            <h2>E-Commerce</h2>
+            <p>
+              <ul>
+                <li>Conducted a technical analysis and comparison for multiple E-Commerce platforms and technology</li>
+                <li>Prepared BRD based on the requirement gathering</li>
+                <li>Prepared wireframe </li>       
+              </ul>
+            </p>
+          </div>
+
+
+          <div>
+            <h2>Process Optimization through Process Excellence (Reducing errors in high error prone projects)</h2>
+            <p>
+              <ul>
+                <li>Understanding the project process at each process level</li>
+                <li>Creating a click on click As-Is process map for the project</li>
+                <li>SWOT analysis of the overall project process</li>
+                <li>Suggesting the required process change for the optimization</li>
+                <li>Supporting the RPA solution architect for the implementation and deployment</li>
+              </ul>
+            </p>
+          </div>
+
+          <div>
+            <h2>Business Analyst for internally developed (Unified Business Solutions)</h2>
+            <p>
+              <ul>
+                <li>Process understanding of the internal product</li>
+                <li>Communicating with multiple departmental stakeholders along with middle and upper management for efficient implementation
+                   of the product in every department</li>
+                <li>Providing first level support to users</li>
+                <li>Liaising with the development team for process optimization and change requests</li>
+                <li>Creating Daily/Weekly/Monthly report on the use and implementation of the product throughout the organization for the middle
+                  and higher management</li>
+
+              </ul>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------Contact--------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-at"></i>ashish.b.jha@gmail.com</p>
+            <p><i class="fa-solid fa-mobile-screen"></i>+1(669) 224-2663</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/ashish.jha.1610"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/ashish-jha95"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/a_for_ashish_"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/ashish4309"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="./Images/Ashish - Resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form action="">
+
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="eamil" name="email" placeholder="Your email id" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button  type="submit" class="btn btn2">Submit</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+
+  <footer>
+    <p> Copyright &copy Ashish</a>
+    </p>
+    </footer>
+</html>
